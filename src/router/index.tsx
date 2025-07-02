@@ -1,7 +1,7 @@
-import { createBrowserRouter } from "react-router-dom";
-import { AppRoutes } from "./routes";
-import App from "@/presentation/app";
-import { PageA } from "@/presentation/app/example/page-a/page-a";
+import { createBrowserRouter } from 'react-router-dom';
+import { AppRoutes } from './routes';
+import App from '@/presentation/app';
+import TodoApp from '@/presentation/app/to-do';
 
 const router = createBrowserRouter([
   {
@@ -9,8 +9,8 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: AppRoutes.BASE.EXAMPLE.pageA,
-        element: <PageA />,
+        path: AppRoutes.BASE.TODO.key,
+        element: <TodoApp />,
       },
     ],
   },
