@@ -1,8 +1,8 @@
 export const AppRoutes = {
   BASE: {
-    key: "/",
-    EXAMPLE: {
-      pageA: "",
+    key: '/',
+    TODO: {
+      key: '',
     },
   },
 } as const;

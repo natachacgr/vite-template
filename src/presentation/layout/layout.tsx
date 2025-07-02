@@ -1,9 +1,9 @@
-import { Outlet } from "react-router-dom";
+import { Outlet } from 'react-router-dom';
 
 const AppLayout = () => {
   return (
-    <div className="min-h-screen max-h-screen flex flex-col !overflow-clip">
-      <main className="min-h-screen max-h-screen w-full flex">
+    <div className='flex max-h-screen min-h-screen flex-col !overflow-clip'>
+      <main className='flex max-h-screen min-h-screen w-full items-center justify-center'>
         <Outlet />
       </main>
     </div>
